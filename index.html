@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>3d Printing</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css" id="theme">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="bower_components/3DViewerComponent/dist/three-d-viewer.html">
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <figure>
+                    <h2 class="intro">3d Printing</h2 class="intro">
+                    <h2 class="intro">3d Printing</h2 class="intro">
+                    <h2 class="intro">3d Printing</h2 class="intro">
+                    <h2 class="intro">3d Printing</h2 class="intro">
+                    <h2 class="intro">3d Printing</h2 class="intro">
+                </figure>
+            </section>
+
+            <section>
+                <p>
+                    3D printing, also known as additive manufacturing(am), refers to processes used to create a three-dimensional object in which layers of material are formed under computer control to create a physical object.<br><br>  Objects can be
+                    of almost any shape or geometry and are produced using digital model data from a 3D model
+                </p>
+            </section>
+
+            <section>
+                <p>
+                    3D printing is achieved using an additive process, where succesive layers of material are laid down in different shapes.
+                </p>
+            </section>
+            <!-- <section>
+                <ul>
+                    <li class="fragment">How a 3d model is created</li>
+                    <li class="fragment">3d CAD</li>
+                    <li class="fragment">3d Scanning</li>
+                    <li class="fragment">The Slicer</li>
+                    <li class="fragment">Gcode</li>
+                    <li class="fragment">Methods of 3d printing</li>
+                </ul>
+            </section> -->
+            <section>
+
+                <img src="/img/term.jpg" height="500">
+            </section>
+            <!-- <section>
+
+            </section> -->
+            <section>
+                Subtractive Manufacturing vs Addtive Manufacturing
+                <img src="/img/add.png" height="400">
+            </section>
+
+            <section>
+                <img src="/img/3d.jpg" height="300"><img src="/img/CNC.jpg" height="300">
+            </section>
+
+            <section>
+                <ul>
+                    3D Printing has been around for decades
+                    <li class="fragment">It was invented by Chuck Hull who created the first 3D printer protoype in 1994</li>
+                    <li class="fragment">He named the technique <b>Stereo Lithography</b> and patented it in 1986</li>
+                    <li class="fragment">Hull's original design used a UV laser to cure layers of UV sensitive resin</li>
+                    <li class="fragment">By the end of the 1980s similar (AM)technologies such as Fused Deposition Modeling(FDM) and Selective laser Sintering(SLS) were introduced. (More on these later)</li>
+                </ul>
+            </section>
+            <section>
+                In 1996 The "Genisys" from the Stratasys corp, "Actua 2100" from 3d Systems and the "Z402" from the Z corp. were introduced as 3D printing solutions for the industrial market
+                <img src="/img/thermojet.jpg" height="250"><img src="/img/genisysee.gif" height="250"><img src="/img/z402.jpg" height="250"><br> The price range of these printers was hundred of thousands of dollars.
+            </section>
+            <section>
+                Over the next 10 years competition between companies led to a price war. In 2007 3D systems released the Vflash 3d printer for $9,900
+                <br><img src="/img/vflash.jpg" height="300"><br>
+                <div class="fragment">The holy grail of the industry at the time was to produce a 3D printer under $5000.00 to increase the market share for the technology</div>
+            </section>
+            <section>
+                Meanwhile in 2005 Dr Adrian Bowyer, a Senior Lecturer in mechanical engineering at the University of Bath founded the RepRap project.
+                <br>
+                <img src="/img/rep.png" height="300">
+
+            </section>
+            <section>
+                <li>In 2011 the BfB RapMan 3D printer based on the designs of the RepRap project went on sale in Kit form for $1433</li>
+                <li class="fragment">Inspired by the reprap project Makerbot Industries, began seeling open source 3d printers shortly after.</li>
+                <li class="fragment">The RepRap phenomenon had given rise to a whole new sector of commercial, affordable 3D printers</li>
+            </section>
+            <section>
+                <img src="/img/bfb.jpg" height="300"><img src="/img/maker.jpg" height="300"><img src="/img/maker2.jpg" height="300">
+            </section>
+            <section>
+                2012 was the year that alternative 3D printing processes were introduced at the entry level of the market. The B9Creator (utilised DLP technology) and the Form1 (utilised stereolithography)<br>
+                <img src="/img/b9c.jpg" height="300"><img src="/img/form1.jpg" height="300">
+            </section>
+            <section>
+                <img src="img/hqdefault.jpg">
+            </section>
+
+            <section>
+                The 3d Model<br>
+                <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/d12905b8ba3c4b0f926e8d329d8b3515/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/markdown/marked.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function() {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }]
+        });
+    </script>
+</body>
+
+</html>

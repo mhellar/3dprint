@@ -1,0 +1,31 @@
+{
+  "name": "3DViewerComponent",
+  "authors": [
+    "Autodesk TLV Web Guild"
+  ],
+  "description": "Web Component for a 3D Viewer of a 3D model object",
+  "main": "dist/three-d-viewer.html",
+  "keywords": [
+    "polymer",
+    "web-components",
+    "custom-elements",
+    "polymer-elements"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "three.js": "https://github.com/mrdoob/three.js.git#r73",
+    "polymer": "~1.3.1"
+  },
+  "homepage": "https://github.com/Autodesk/3DViewerComponent",
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "27a75b06c9fb258ba6226a9cae71f9654c9be139"
+  },
+  "_source": "https://github.com/Autodesk/3DViewerComponent.git",
+  "_target": "^0.0.2",
+  "_originalSource": "3DViewerComponent",
+  "_direct": true
+}
